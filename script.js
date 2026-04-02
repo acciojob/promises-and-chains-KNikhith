@@ -8,7 +8,7 @@ form.addEventListener("submit",(e)=>{
 	let age=Number(document.getElementById("age").value);
 
 	if(!name || !age){
-		alert("Please enter valid details.");
+		alert("Please enter valid details");
 		return;
 	}
 	let checkEligibility=new Promise((resolve,reject)=>{
